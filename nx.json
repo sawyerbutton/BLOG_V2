@@ -27,12 +27,25 @@
     ]
   },
   "projects": {
+    "api": {
+      "tags": []
+    },
+    "blog-amdin": {
+      "tags": []
+    },
+    "blog-amdin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["blog-amdin"]
+    },
     "blog-page": {
       "tags": []
     },
     "blog-page-e2e": {
       "tags": [],
       "implicitDependencies": ["blog-page"]
+    },
+    "data": {
+      "tags": []
     }
   }
 }
